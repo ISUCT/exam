@@ -1,18 +1,15 @@
 class TestThis{
 
-public int forTest(int a){
-   if (a<0){
-           return Math.abs(a);
-        }else{
-               if(a==0){
-                   return a;
-                   }
-               if(a<5){
-                   return a-1;
-                   }else{
-                      return a+1;
-                      }
-  } 
-        }
-
+public int forTest(int a, int b){
+           if (a<b){
+                   return b-a;
+               }else{
+                       if(a==b){
+                           return a;
+                           }
+                       if(a>b){
+                           return a+b;
+                      } 
+                               }
+}
 }
